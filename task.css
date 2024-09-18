@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.logo{
+    background-color: #FAD373;
+    color: black;
+    padding: 0.6rem;
+    width: 5rem;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+nav > div:nth-child(2) > a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+.hero{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #FAD373;
+    height: 40vh;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 250px);  
+    gap: 1.5rem;
+    padding: 3.2rem 2rem;
+    text-transform: capitalize;
+}
+
+.card > div{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: #FAD373;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+footer > span{
+    font-weight: 600;
+}
